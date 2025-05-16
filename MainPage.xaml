@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="waluty.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:waluty"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Grid Background="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Nagłówek -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock Text="Kalkulator Waluty" FontSize="50" Foreground="Black" />
+        </StackPanel>
+
+        <!-- Pole wprowadzania -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock Text="Wprowadź kwotę:" FontSize="35" Margin="0,10,10,0" Foreground="Black" />
+            <TextBox x:Name="txtKwota" FontSize="20" Width="193" TextChanged="txtKwota_TextChanged" Height="40"/>
+
+        </StackPanel>
+
+        <!-- Wybór walut -->
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" Width="729">
+            <TextBlock x:Name="txtWynik" FontSize="30" Foreground="Black" Width="661" SelectionChanged="txtWynik_SelectionChanged" />
+            <TextBlock Text="Wybierz walutę do konwersji:" FontSize="25" Margin="10" Foreground="Black"/>
+
+            <ComboBox Name="cbxZWaluty" FontSize="16" Margin="10" Width="150" DisplayMemberPath="KodWaluty" SelectionChanged="cbxZWaluty_SelectionChanged"/>
+            <TextBlock Text="Na walutę" FontSize="25" Margin="10" Foreground="Black"/>
+            <ComboBox Name="cbxNaWalute" FontSize="16" Margin="10" Width="150" DisplayMemberPath="KodWaluty" SelectionChanged="cbxNaWalute_SelectionChanged"/>
+        </StackPanel>
+
+        <!-- Przycisk przeliczenia -->
+        <Button Grid.Row="3" Content="Przelicz" Click="Przelicz_Click" HorizontalAlignment="Center" Margin="0,10" FontSize="18" Padding="10" Background="Crimson"/>
+
+        <!-- Przyciski nawigacyjne -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="O Programie" Click="btnOProgramie_Click" Margin="10" Background="Crimson"/>
+            <Button Content="Pomoc" Click="btnPomoc_Click" Margin="10" Background="Crimson"/>
+        </StackPanel>
+    </Grid>
+</Page>

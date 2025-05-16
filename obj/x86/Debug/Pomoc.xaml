@@ -1,0 +1,21 @@
+﻿<!-- Pomoc.xaml -->
+<Page
+    x:Class="waluty.Pomoc"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Grid Background="White" HorizontalAlignment="Center" Width="800">
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock x:ConnectionId='3' x:Name="txtHelp" Text="Tutaj będzie wyświetlona pomoc." FontSize="18" Margin="20" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+            <TextBlock Text="Instrukcja obsługi programu" FontSize="24" Foreground="Black" Margin="0,0,0,20" Width="317"/>
+            <TextBlock FontSize="16" Foreground="Black" Height="802" Width="858"><Run Text="Uruchomienie programu:"/><LineBreak/><Run/><LineBreak/><Run Text="Uruchom aplikację &quot;Kursy Walut&quot;."/><LineBreak/><Run Text="Wybór walut:"/><LineBreak/><Run/><LineBreak/><Run Text="Na głównej stronie wybierz walutę, którą chcesz skonwertować w sekcji &quot;Wybierz walutę do konwersji&quot;."/><LineBreak/><Run Text="Następnie wybierz walutę, na którą chcesz dokonać konwersji, w sekcji &quot;Na walut"/><Run Text="ę"/><Run Text="&quot;."/><LineBreak/><Run Text="Wprowadzenie kwoty:"/><LineBreak/><Run/><LineBreak/><Run Text="Wprowadź kwotę, którą chcesz skonwertować, w polu &quot;Wprowadź kwotę&quot;."/><LineBreak/><Run Text="Konwersja:"/><LineBreak/><Run/><LineBreak/><Run Text="Naciśnij przycisk &quot;Przelicz&quot;, aby dokonać konwersji. Wynik pojawi się pod polem wprowadzania kwoty."/><LineBreak/><Run Text="Dodatkowe informacje:"/><LineBreak/><Run/><LineBreak/><Run Text="Aby uzyskać dodatkowe informacje o programie, kliknij przycisk &quot;O Programie&quot; na głównej stronie. Tutaj znajdziesz informacje o projekcie i jego twórcy."/><LineBreak/><Run Text="Pomoc:"/><LineBreak/><Run/><LineBreak/><Run Text="Jeśli masz pytania dotyczące korzystania z programu, kliknij przycisk &quot;Pomoc&quot; na głównej stronie. Znajdziesz tutaj instrukcję obsługi programu oraz możesz uzyskać pomoc dotyczącą wybranych aktualnie walut."/><LineBreak/><Run Text="Powrót do strony głównej:"/><LineBreak/><Run/><LineBreak/><Run Text="W dowolnym momencie możesz powrócić do strony głównej, klikając przycisk &quot;Wstecz&quot;."/><LineBreak/><Run Text="To podstawowa instrukcja obsługi programu &quot;Kursy Walut&quot;. Mam nadzieję, że pomoże Ci rozpocząć korzystanie z aplikacji bez problemów."/></TextBlock>
+        </StackPanel>
+        <Button x:ConnectionId='2' Content="Powrót"                       VerticalAlignment="Top" Margin="356,805,0,0" Background="Crimson" RenderTransformOrigin="-0.391,0.625"/>
+    </Grid>
+</Page>
+

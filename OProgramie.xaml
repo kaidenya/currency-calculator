@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="waluty.OProgramie"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="540">
+            <TextBlock Text="Kursy Walut" FontSize="36" Foreground="Black" Margin="0,0,0,20"/>
+            
+            <TextBlock FontSize="24" Foreground="Black" SelectionChanged="TextBlock_SelectionChanged"><Run Text="Wykonane przez"/><Run Text=": Nazar Vasylevych"/><LineBreak/><Run Text="Informatyka 2 rok, stacjonarne"/></TextBlock>
+            <TextBlock Text="" FontSize="36" Foreground="Black" Margin="0,0,0,20"/>
+            <TextBlock Text="" FontSize="36" Foreground="Black" Margin="0,0,0,20"/>
+            <TextBlock Text="" FontSize="36" Foreground="Black" Margin="0,0,0,20"/>
+            <TextBlock Text="" FontSize="36" Foreground="Black" Margin="0,0,0,20"/>
+            <TextBlock Text="" FontSize="36" Foreground="Black" Margin="0,0,0,20"/>
+
+            <Button Content="Powrót" Click="BtnBack_Click" Background="Crimson" Height="44" Width="172" RenderTransformOrigin="0.499,3.705" HorizontalAlignment="Center" />
+
+        </StackPanel>
+    </Grid>
+</Page>

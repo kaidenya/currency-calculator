@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="waluty.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:waluty"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="DarkGoldenrod">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            
+
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock Text="WALUTY" FontSize="24" Margin="0,0,10,0" />
+            <TextBlock Text="kalkulator" FontSize="24" />
+        </StackPanel>
+
+        <!-- Поле для ввода -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock Text="Wprowadź kwotę:" FontSize="20" Margin="0,10,10,0" />
+            <TextBox x:ConnectionId='5' Name="txtKwota" FontSize="16" Width="120" Margin="0,10,0,0"                                   />
+            <TextBlock x:ConnectionId='6' x:Name="txtWynik" FontSize="18" Width="100" />
+
+        </StackPanel>
+
+        <!-- Выбор валют -->
+        <!-- Выбор валют -->
+        <StackPanel Grid.Row="2">
+            <TextBlock Text="Выберите валюту для конвертации:" FontSize="18" Margin="10"/>
+            <ComboBox x:ConnectionId='3' Name="cbxZWaluty" FontSize="16" Margin="10" Width="150" DisplayMemberPath="NazwaWaluty"                                               />
+            <TextBlock Text="в" FontSize="18" Margin="10"/>
+            <ComboBox x:ConnectionId='4' Name="cbxNaWalute" FontSize="16" Margin="10" Width="150" DisplayMemberPath="NazwaWaluty"                                                />
+        </StackPanel>
+
+        <!-- Кнопка для конвертации -->
+        <Button x:ConnectionId='2' Grid.Row="3" Content="Преобразовать"                        HorizontalAlignment="Center" Margin="0,10" FontSize="18" Padding="10"/>
+
+        
+        
+        <!-- Вывод результата -->
+
+
+     
+    </Grid>
+</Page>
+

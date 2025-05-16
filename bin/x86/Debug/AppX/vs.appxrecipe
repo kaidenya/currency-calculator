@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-PO9L6IE</Machine>
+    <WindowsUser>nazle</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>d0402df4-ecd9-412d-8235-4b89d7be725e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=nazle</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>31F199F4237D2177F8CA86BD8BCE7A56FDE5A6110A8B30371E2DE3D75A1400AE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d0402df4-ecd9-412d-8235-4b89d7be725e_1.0.0.0_x86__c10zb51es6j4e</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d0402df4-ecd9-412d-8235-4b89d7be725e_c10zb51es6j4e!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d0402df4-ecd9-412d-8235-4b89d7be725e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=nazle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-13T18:35:11.990</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\bin\x86\Debug\waluty.exe">
+      <PackagePath>entrypoint\waluty.exe</PackagePath>
+      <Modified>2024-03-13T18:34:14.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nazle\.nuget\packages\htmlagilitypack\1.11.59\lib\uap10.0\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+      <Modified>2024-02-14T18:03:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2021-02-05T00:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nazle\.nuget\packages\system.xml.xpath.xmldocument\4.3.0\lib\netstandard1.3\System.Xml.XPath.XmlDocument.dll">
+      <PackagePath>System.Xml.XPath.XmlDocument.dll</PackagePath>
+      <Modified>2016-11-05T04:57:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2020-12-02T03:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Assets\kursy.xml">
+      <PackagePath>Assets\kursy.xml</PackagePath>
+      <Modified>2024-03-06T00:08:53.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2024-03-05T20:11:19.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Assets\tabela.html">
+      <PackagePath>Assets\tabela.html</PackagePath>
+      <Modified>2024-03-05T23:40:52.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Pomoc.xaml.cs">
+      <PackagePath>Pomoc.xaml.cs</PackagePath>
+      <Modified>2024-03-13T18:14:29.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-03-03T20:58:45.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-03T20:58:45.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-03T20:58:45.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-03T20:58:45.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-03T20:58:45.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-03T20:58:45.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-03T20:58:45.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\bin\x86\Debug\waluty.xr.xml">
+      <PackagePath>waluty.xr.xml</PackagePath>
+      <Modified>2024-03-13T18:31:21.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2024-03-13T18:35:11.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2024-03-13T18:35:11.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\bin\x86\Debug\OProgramie.xbf">
+      <PackagePath>OProgramie.xbf</PackagePath>
+      <Modified>2024-03-13T18:35:11.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\bin\x86\Debug\Pomoc.xbf">
+      <PackagePath>Pomoc.xbf</PackagePath>
+      <Modified>2024-03-13T18:35:11.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2020-12-02T01:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-03-13T18:02:51.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ukw\semestr 4\Technologie mobilne i rozproszone\waluty\bin\x86\Debug\Core\waluty.exe">
+      <PackagePath>waluty.exe</PackagePath>
+      <Modified>2024-03-13T18:35:11.987</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
